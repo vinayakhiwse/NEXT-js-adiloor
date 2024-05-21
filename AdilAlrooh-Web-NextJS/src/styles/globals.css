@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: hidden;
+  width: 0;
+  height: 0;
+}
+
+.react-multi-carousel-dot-list {
+  height: 1.2rem;
+  align-items: center;
+}
+
+.custom-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: #C8B3AE;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.custom-dot.active {
+  width: 17px !important;
+  height: 17px !important;
+  text-align: center;
+  background-color: transparent;
+  border: 0.2rem solid #801818 !important;
+  opacity: 1 !important;
+  border-radius: 50%;
+}
